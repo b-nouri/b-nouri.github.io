@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Strawberry"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#e71d36"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#191919"
+menu_text_active = "#ff0e0e"
+menu_title = "#e71d36"
+
+# Home sections
+home_section_odd = "#fff"
+home_section_even = "#f7f9fa"
