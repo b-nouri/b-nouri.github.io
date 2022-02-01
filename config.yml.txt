@@ -1,0 +1,48 @@
+title: Behzad Nouri
+baseURL: https://b-nouri.github.io/
+copyright: Copyright &copy; {2021}
+theme: academia-hugo
+enableGitInfo: no
+defaultContentLanguage: en
+hasCJKLanguage: no
+defaultContentLanguageInSubdir: no
+removePathAccents: yes
+paginate: 10
+enableEmoji: yes
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles:
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \\.knit\\.md$
+  - \\.utf8\\.md$
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+blackfriday:
+  angledQuotes: no
+  extensions: backslashLineBreak
+  hrefTargetBlank: yes
+  latexDashes: yes
+imaging:
+  anchor: smart
+  quality: 90
+  resampleFilter: lanczos
+taxonomies:
+  author: authors
+  category: categories
+  publication_type: publication_types
+  tag: tags
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+- name: Hugo setup
+  uses: peaceiris/actions-hugo@v2.4.13

@@ -54,7 +54,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "nuri.behzad@gmail.com"
-phone = "+32 (0) 483 32 69 68"
+phone = "+32 483 32 69 68"
 address = "Boulevard Pierre Dupong, Luxemburg City, 1430, Luxemburg"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
