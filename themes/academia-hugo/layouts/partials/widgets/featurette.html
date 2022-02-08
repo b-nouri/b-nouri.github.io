@@ -9,25 +9,60 @@
   </div>
   {{ end }}
 
+
   {{ with $page.Content }}
   <div class="col-12">
     {{ . | markdownify }}
+ </div>
+  {{ end }}
+</div>  
+<div class="row featurette skill-row">
+  <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 h5 text-center">
+	<span>Programming:</span>
   </div>
-  {{ end }}
-
-  {{ range $page.Params.feature }}
-  {{ $pack := or .icon_pack "fas" }}
-  {{ $pack_prefix := $pack }}
-  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-  {{ $pack_prefix = "fa" }}
-  {{ end }}
-  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="col-lg-8 col-sm-6 mb-4 mb-lg-0">
+	Python {Pandas, Numpy, Scikit-learn, Tensorfelow, Keras, matplotlib ,Seaborn, flask}, R {Dplyr, ggplot2, Lubridate, Caret, Shiny}, SQL
+  </div>
     <div class="position-relative py-2 shadow featurette-margin">
-      <div class="progress-bar" style="width:{{ .parcent }}"></div>
-      {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
-      <h3>{{ .name | markdownify | emojify }}</h3>
-      {{ with .parcent }}<p>{{ . }}</p>{{ end }}
     </div>
+</div>
+<div class="row featurette skill-row">
+  <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 h5 text-center">
+	<span>Data Visualisation:</span>
   </div>
-  {{ end }}
+  <div class="col-lg-8 col-sm-6 mb-4 mb-lg-0">
+	Tableau, PowerBI, R Shiny, Dash/Plotly
+  </div>
+    <div class="position-relative py-2 shadow featurette-margin">
+    </div>
+</div>
+<div class="row featurette skill-row">
+  <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 h5 text-center">
+	<span>Other Technical Stack:</span>
+  </div>
+  <div class="col-lg-8 col-sm-6 mb-4 mb-lg-0">
+	Apache Spark, Git, Github, Docker, html, css
+  </div>
+    <div class="position-relative py-2 shadow featurette-margin">
+    </div>
+</div>
+<div class="row featurette skill-row">
+  <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 h5 text-center">
+	<span>Statistics/ML Experience:</span>
+  </div>
+  <div class="col-lg-8 col-sm-6 mb-4 mb-lg-0">
+	Time Series Analysis, Text Mining & Text Classification, Regression Analysis, Statistical Modelling, Deep Learning 
+  </div>
+    <div class="position-relative py-2 shadow featurette-margin">
+    </div>
+</div>
+<div class="row featurette skill-row">
+  <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 h5 text-center">
+	<span>Other Hands-on Experience:</span>
+  </div>
+  <div class="col-lg-8 col-sm-6 mb-4 mb-lg-0">
+	Business Analysis, Database Design, Software Analysis & Design, Software Prototyping, Agile Project Management, Web Scraping
+  </div>
+    <div class="position-relative py-2 shadow featurette-margin">
+    </div>
 </div>

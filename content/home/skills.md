@@ -18,7 +18,7 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   icon = "chart-line"
   icon_pack = "fas"
   name = "Analysis"
-  parcent = "90%"
+
   
 [[feature]]
   icon = "user-secret"
