@@ -45,4 +45,4 @@ Not only for reporting purposes, but also when you want to publish a dashboard f
 
 After developing your dashboard using Dash/plotly framework, you have to publish your code on a server, so that users can open and inetarct with your dash app. Usually python apps are better served on an apache server, but it may happen in some cases that you need to deploy your code on a windows server. Specially if your organization is using Microsoft based technologies, you have no other choice than deploying your code on an IIS server. This happend to me at CLdN Cobelfret, and as I couldn't find a step-by-step guide to do the job, I decided to write a post and share my knowledge with others.
 
-you can [follow this link and **read the full article on Medium.**](https://medium.com/@b-nouri/how-to-deploy-your-dash-app-on-iis-windows-server-98a16b8707e1)
+You can [follow this link and **read the full article on Medium.**](https://medium.com/@b-nouri/how-to-deploy-your-dash-app-on-iis-windows-server-98a16b8707e1)
